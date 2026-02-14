@@ -2,7 +2,7 @@ import User from "../models/User.js";
 import Activity from "../models/Activity.js";
 import { hashPassword } from "../services/password.js";
 import { asyncHandler } from "../middlewares/asyncHandler.js";
-import { ApiError } from "../utils/ApiError.js";
+import { ApiError } from "../utils/apiError.js";
 
 // --- Get All Users ---
 export const getUsers = asyncHandler(async (req, res) => {
