@@ -10,7 +10,7 @@ import {
 import { sendEmail } from "../services/email.js";
 import { templates } from "../services/emailTemplates.js";
 import { handleOAuthExchange } from "../services/oauthService.js";
-import { ApiError } from "../utils/ApiError.js";
+import { ApiError } from "../utils/apiError.js";
 import { asyncHandler } from "../middlewares/asyncHandler.js";
 
 // --- Register ---
